@@ -38,3 +38,9 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# Use slim for templating
+gem "slim-rails"
+
+gem 'pg',             '0.17.1',		group: :production
+
+gem 'rails_12factor', '0.0.2',		group: :production
