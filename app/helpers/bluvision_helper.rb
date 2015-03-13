@@ -1,0 +1,2 @@
+module BluvisionHelper
+end

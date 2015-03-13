@@ -1,0 +1,13 @@
+doctype html
+html class=yield(:layout_class)
+  head
+    = render 'layouts/head'
+
+  body class=yield(:body_class)
+    = section 'layouts/header'
+    = yield(:page_heading)
+
+    main
+      = yield
+
+    = yield :javascripts
