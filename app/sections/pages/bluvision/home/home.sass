@@ -1,11 +1,26 @@
+@import variables
+
 .splash-msg
   padding: 0
+
+.jumbotron
+  h1
+    color: $yellow
+
+h2
+  color: white
+  font-style: italic
+  sup
+    font-size: 12px
+    positon: relative
+    top: -15px
+    padding: 0 3px
 
 .thumbs-up
   position: relative
   bottom: -140px
 
-  @media(max-width: 767px)
+  @media(max-width: 635px)
     bottom: 0
 
 .logo
@@ -13,3 +28,6 @@
   padding-left: 10px
   position: relative
   top: -20px
+
+  @media(max-width: 625px)
+    top: 0
