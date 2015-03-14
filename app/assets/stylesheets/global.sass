@@ -14,3 +14,78 @@ body
   -moz-background-size: cover
   -o-background-size: cover
   background-size: cover
+
+.header
+  display: block
+  background: black
+  padding: 20px
+  .nav
+    img
+      max-width: 200px
+
+//miami.sass styling 
+.splash-msg
+  padding: 0
+
+.jumbotron
+  h1
+    color: $yellow
+
+h2
+  color: white
+  font-style: italic
+  sup
+    font-size: 12px
+    positon: relative
+    top: -15px
+    padding: 0 3px
+
+.thumbs-up
+  position: relative
+  bottom: -140px
+
+  @media(max-width: 635px)
+    bottom: 0
+
+.logo
+  width: 135px
+  padding-left: 10px
+  position: relative
+  top: -20px
+
+  @media(max-width: 625px)
+    top: 0
+
+//showmiami.sass styling
+
+.fact-container
+  position: absolute
+  height: 70%
+  top: 20%
+
+.band-container
+  height: 100%
+
+  .img-cont
+    position: absolute
+    bottom: 0
+
+.fact
+  margin: 20px 0
+  padding: 30px
+  border-radius: 10px
+  position: relative
+  background-color: orange
+
+  &::after
+    content: ''
+    position: absolute
+    border-style: solid
+    border-width: 20px 11px 0
+    border-color: orange transparent
+    display: block
+    width: 0
+    z-index: 1
+    bottom: -10px
+    right: -9px
+    transform: rotate(-42deg)

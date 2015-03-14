@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'test/miami'
+
+  get 'test/showmiami'
+
+  get 'static/home'
+
+  get 'static/help'
+
   get 'bluvision/miami'
 
   get 'bluvision/showmiami'
