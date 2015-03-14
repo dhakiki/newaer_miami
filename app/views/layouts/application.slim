@@ -4,7 +4,6 @@ html class=yield(:layout_class)
     = render 'layouts/head'
 
   body class=yield(:body_class)
-    = section 'layouts/header'
     = yield(:page_heading)
 
     main
