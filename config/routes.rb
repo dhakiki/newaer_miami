@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
-  get 'bluvision/home'
+  get 'bluvision/miami'
 
-  get 'bluvision/facts'
+  get 'bluvision/showmiami'
 
-  root 'bluvision#home'
+  root 'bluvision#miami'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
