@@ -10,3 +10,4 @@ Rails.application.config.assets.precompile += %w( *.png )
 # TODO: find out what's wrong with my asset pipeline
 Rails.application.config.assets.precompile += %w( layouts/header/header.css )
 Rails.application.config.assets.precompile += %w( pages/bluvision/home/home.css )
+Rails.application.config.assets.precompile += %w( pages/bluvision/facts/facts.css )

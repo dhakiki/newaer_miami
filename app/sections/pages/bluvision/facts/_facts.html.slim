@@ -1,15 +1,16 @@
-.fluid-container
-  .col-xs-offset-1
-    .row
-      .col-xs-5
-
-      .col-xs-2
-
-      .col-xs-5
-
-p
-  = @fact1
-p
-  = @fact2
-p
-  = @fact3
+.container
+   .row.fact-container
+    .col-xs-4.col-xs-offset-1
+      .row.fact.fist
+        h3 Fact #1
+        h4 = @fact1
+      .row.fact.second
+        h3 Fact #2
+        h4 = @fact2
+    .col-xs-2.band-container
+      .img-cont
+        = image_tag 'newaer-band.png', class: 'img-responsive'
+    .col-xs-4
+      .row.fact.third
+        h3 Fact #3
+        h4 = @fact3
